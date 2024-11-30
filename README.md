@@ -8,3 +8,6 @@ Este repositorio contiene programas básicos de Python para aprender mientras pr
 2. Calculadora básica:  Programa para realizar operaciones básicas con un menú "if, elif, else"   
 3. Convertidor de unidades:  Programa de conversión de unidades básicas utilizando bucle "while" y condicional "if"
 4. Tablas de multiplicar:  Programa interactivo que genera la tabla de multiplicar del número deseado utilizando bucles "for", "while" y condicional "if"
+5, Adivina el número: "Es un juego interactivo en donde el ususario tiene que adivinar un número generado al azar en 'n' intentos, se utiliza bucle 'while', 
+condicional 'if' y se importa el módulo 'random'para generar el número al azar"
+
