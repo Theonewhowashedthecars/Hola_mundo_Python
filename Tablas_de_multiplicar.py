@@ -12,7 +12,7 @@ def generar_tabla():
 
         if opcion == 1:
             numero = int(input("Ingresa el número para generar su tabla de multiplicar: "))
-            print(f"\nTabla de multiplicar del {numero}:")
+            print(f"\nTabla de multiplicar del número {numero}:")
             for i in range(1, 11):
                 print(f"{numero} x {i} = {numero * i}")
         else:
