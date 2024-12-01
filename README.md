@@ -11,4 +11,5 @@ Este repositorio contiene programas básicos de Python para aprender mientras pr
 5. Adivina el número: Programa interactivo para adivinar un número generado al azar, se utiliza bucle 'while', condicional 'if' y se importa el modulo 'Random'.
 6. Calculadora avanzada: Añadida calculadora avanzada con nuevas funciones; Potencia, raíz y módulo. Se utiliza bucle 'while', condicional 'if', se importa el módulo 'math'.
 7. Factorial: Programa que calcula el factorial de un número entero positivo mediante un bucle 'while', bucle 'for' y condicional 'if'.
+8. Gestor de tareas: Programa que ayuda a gestionar tareas permitiendo añadir, marcar como completado o eliminar tareas según sea necesario, se utiliza bucles 'while y for', condicional 'if' se realiza manejo de excepciones y se utiliza herramienta de lectura y escritura de archivos.
 
