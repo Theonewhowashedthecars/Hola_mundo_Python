@@ -1,3 +1,13 @@
+from datetime import datetime
+
+def agregar_tarea(tareas, archivo_tareas):
+    nueva_tarea = input("Ingresa la nueva tarea: ")
+    fecha = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    tarea_con_fecha = f"{nueva_tarea} (Añadida el {fecha})"
+    tareas.append(tarea_con_fecha)
+    guardar_tareas(archivo_tareas, tareas)
+    print("Tarea agregada.")
+
 def cargar_tareas(archivo):
     """Carga las tareas desde un archivo."""
     try:
@@ -39,10 +49,7 @@ def gestor_de_tareas():
         if opcion == "1":
             mostrar_tareas(tareas)
         elif opcion == "2":
-            nueva_tarea = input("Ingresa la nueva tarea: ")
-            tareas.append(nueva_tarea)
-            guardar_tareas(archivo_tareas, tareas)
-            print("Tarea agregada.")
+            agregar_tarea(tareas, archivo_tareas)
         elif opcion == "3":
             mostrar_tareas(tareas)
             if tareas:
